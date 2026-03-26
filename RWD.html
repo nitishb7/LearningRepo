@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive web design</title>
+    <style>
+        /*#box1{
+                width: 150px;
+                height: 150px;
+                background-color: aqua;
+                border: 2px dashed black ;
+            }*/
+
+        /*@media screen and (width:768px){
+            #box1{
+                width: 150px;
+                height: 150px;
+                background-color: aqua;
+                border: 2px dashed black ;
+            }
+
+
+
+        }*/
+
+        /*@media screen and (min-width:768px){
+            #box1{
+            width: 300px;
+            height: 300px;
+            background-color: yellow;
+            border: 2px solid green;
+            }
+        }*/
+
+        #box1 {
+            width: 300px;
+            height: 300px;
+            background-color: yellow;
+            border: 2px solid green;
+        }
+
+        #box2 {
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            border: 2px solid green;
+        }
+
+        @media screen and (max-width:600px) {
+            #box1 {
+                width: 150px;
+                height: 150px;
+                background-color: aqua;
+                border: 2px dashed black;
+            }
+
+            #box2 {
+                display: none;
+            }
+
+            #box2 {
+                display: none;
+            }
+        }
+
+        @media screen and (min-width:600px) and (max-width: 767px) {
+            #box1 {
+                width: 150px;
+                height: 150px;
+                background-color: rgb(255, 0, 247);
+                border: 2px dotted rgb(255, 0, 0);
+            }
+        }
+
+        @media screen and (min-width:767px) and (max-width: 1023px) {
+            #box1 {
+                width: 300px;
+                height: 300px;
+                background-color: purple;
+                border: 8px solid black;
+            }
+
+
+        }
+
+        @media screen and (orientation: portrait) {
+            body {
+                background-color: blue;
+            }
+
+        }
+
+        @media screen and (orientation: landscape) {
+            body {
+                background-color: brown;
+            }
+        }
+
+        @media print {
+            #box1 {
+                width: 100px;
+                height: 100px;
+                background-color: violet;
+                border: 2px dotted teal;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box1">Hello</div>
+    <div id="box2">Hi</div>
+
+</body>
+
+</html>

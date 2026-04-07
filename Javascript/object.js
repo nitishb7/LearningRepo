@@ -105,7 +105,7 @@
 
 // Object.freeze(student);
 // student.id = 3333;
-// console.log(student);
+// console.log(student); 
 
 
 // Object.seal(student);
@@ -122,5 +122,21 @@
 // for(let idx in arr){
 //     console.log(idx, ":", arr[idx]);
     
+// }
+
+///assignment 
+
+const marks = {
+    maths: 90,
+    science: 78,
+    java: 90,
+    social: 80,
+}
+
+let newMarks = Object.values(marks)
+console.log(newMarks);
+
+// for(let k in marks){
+//     console.log(k , ":", marks[k])
 // }
 

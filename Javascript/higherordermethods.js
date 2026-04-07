@@ -64,3 +64,7 @@ let lowest = nums.reduce((acc,curr)=>{
 }, initialValue)
 
 console.log(lowest);
+
+
+//assignment
+
